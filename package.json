@@ -1,0 +1,17 @@
+{
+	"name": "server-gr",
+	"version": "1.0.0",
+	"description": "server for reading recommendation app",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js"
+	},
+	"author": "shelly",
+	"license": "MIT",
+	"dependencies": {
+		"express": "^4.16.4",
+		"express-graphql": "^0.7.1",
+		"graphql": "^14.0.2"
+	}
+}
